@@ -26,6 +26,10 @@ if (mysqli_query($conn, $sql)) {
     echo "Error: " . mysqli_error($conn);
 }
 
+//mysqli_query() is a built-in PHP function.
+// It is used to send a SQL query to the MySQL database and run it.
+
 // Close connection
 mysqli_close($conn);
 ?>
+
